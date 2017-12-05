@@ -1,4 +1,4 @@
-class RomanConverter
+class RomeConverter
 
 	ROMAN_NUMS = {
 		1000 => "M",

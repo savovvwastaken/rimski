@@ -1,6 +1,6 @@
 require_relative '../lib/rome_convertor.rb'
 
-describe RomanConverter do
+describe RomeConverter do
 	it "returns roman from integer" do
 		expect(RomanConverter.new.to_rome(0)).to eq ""
 		expect(RomanConverter.new.to_rome(1)).to eq "I"
